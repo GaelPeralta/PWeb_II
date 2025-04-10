@@ -1,0 +1,28 @@
+
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+
+
+$custom-skyblue: skyblue;
+$custom-green: green;
+$custom-coral: coral;
+
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+  "custom-skyblue": $custom-skyblue,
+  "custom-green": $custom-green,
+  "custom-coral": $custom-coral
+);
+// scss-docs-end theme-colors-map
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

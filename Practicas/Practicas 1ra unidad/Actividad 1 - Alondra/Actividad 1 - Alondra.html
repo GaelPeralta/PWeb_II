@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang = "es";>
+<head>
+	<meta charset="utf-8">	
+	<title>Hoja de vida w-bootstrap</title>
+	<link rel="stylesheet" href="mystyle.css">
+
+	<!-- Bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/common/custom-color.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap -->
+
+</head>
+
+
+
+<body>
+
+	
+
+
+
+	<div class="container">
+		
+		<!-- ><button type="button" class="btn btn-custom-coral text-custom-green">Primary</button> -->
+		
+		<!-- Aqui ponemos una barra de navegacion -->
+		<!--nav class="navbar navbar-expand-lg bg-body-tertiary"> Esta barra es la normal -->
+		<nav class="navbar navbar-expand-lg bg-limegreen" data-bs-theme="light">			
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">Navbar</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Link</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Dropdown
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="#">Action</a></li>
+		            <li><a class="dropdown-item" href="#">Another action</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item" href="#">Something else here</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+		        </li>
+		      </ul>
+		      <form class="d-flex" role="search">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit">Search</button>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+
+
+
+
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 id="titulo" class="mt-3">Gael Valerio Peralta</h1>
+					<img id="imgEncabezado" src="fb gael.jpg">
+				</div>
+
+				<div class="col-lg-6 text-star align-self-end">
+					<p class="mt-4 mt-sm-4 mt-md-0"> <b> Correo: </b> gaelvaleperalta32@gmail.com </p>
+					<p> <b> Teléfono: </b> +52 55 6227 8458 </p>
+					<p> <b> Dirección: </b> Calle Chimalpopoca #4, colonia Reforma, Loma Bonita, Oaxaca </p>
+				</div>	
+			</div>	
+		</div>	
+
+
+	<!-- Practica uno: Cambiar el titulo de mi nombre y la imagen -->
+
+	<br><button type="button" onclick="Cambiar()">Cambiar</button>
+
+	<button type="button" onclick="Revertir()">Revertir</button>
+
+	
+
+	
+	<script src="myScriptPracticaUno.js">
+		const cars = [];
+		cars[0]= ["Saab", "Lalo", "Guerrero"];
+		cars[1]= "Volvo";
+		cars[2]= "BMW";
+		document.getElementById("titulo").innerHTML = fruits.toString();
+
+	</script>
+
+	<!--script>
+	function imgJesus() {
+	  document.getElementById("imgEncabezado").src='BukiHesus.jpg';
+	}
+
+	function imgGael() {
+	  document.getElementById("imgEncabezado").src='fb gael.jpg';
+	}
+	</script-->
+
+
+	<!-- Experiencia academica -->
+	<hr> </hr> 
+	<h1 class="title_1 mb-4">Experiencia academica</h1></font>
+
+	<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<p id="pDesarrolloWeb" class="text-md-start text-lg-center"><b>Desarrollo Web</b><br></p>
+					<p> Universidad del Papaloapan <br>
+					 Octubre 2024 - Actualidad <br>
+					 - Desarrolo de apps web usando HTML y CSS </p><br>
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<p id="pPOO" class="text-md-start text-lg-center"> <b>Programación Orientada Objetos</b><br></p>
+						<p> Universidad del Papaloapan <br>
+						 Octubre 2023 - Febrero 2024 <br>
+						 - Desarrollo de programas basados en Java </p><br><
+				</div>	
+			</div>	
+	</div>	
+
+	<!-- Contactos -->
+		<hr>
+		<h1>Contactos</h1>
+		<a 	href = "https://www.facebook.com/gael.valerioperalta">
+			<img src="Logo_de_Facebook.png" title="Facebook para seguir a GP">
+		</a>
+		<a href = "https://www.instagram.com/?hl=es-la#reactivated"> 
+			<img src="Instagram_icon.png" title="Instagram para seguir a GP">
+		</a>
+		<a href = "onlyfans/gael.valerio/ahh.tela.creiste">
+			<img src="X logitipo.avif" title="X para seguir a GP" alt="Esta es una imagen del logotipo de X"> 
+		</a>
+		</hr>
+	</div>
+
+<!-- script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+<!--
+<pre>
+Este texto se
+	respeta a lo que
+yo escribo, esto es
+	debido al pre pucio
+</pre>
+
+<hr>
+Esta etiqueta nos divide el contenido en una linea de inicio a fin,
+dividiendo la pantalla por una linea 
+</hr>
+
+
+<p> <b> Este texto se escribio en negritas  </b> </p>
+<p> <i> Este texto se escribio en tipo de letra italica  </i> </p>
+<p> <em> Este texto se escribio en tipo de letra enfatizado </em> </p>
+<p> <small> Este texto se escribio en texto tipo small   </small> </p>
+<p> Este texto usa la etiqueta <mark> malk </mark> para resaltar <mark> una parte del texto </mark>  </p>
+<p> Este texto se escribio con la etiqueta <del> del </del> para tachar un texto </p>
+<p> Para colocar un <sub> subindice </sub> se usa la etiqueta sub </p>
+<p> Para colocar un <sup> superindice </sup> se usa la etiqueta sup </p>

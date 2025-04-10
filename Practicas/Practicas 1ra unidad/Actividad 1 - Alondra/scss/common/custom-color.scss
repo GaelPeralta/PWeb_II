@@ -1,0 +1,25 @@
+
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+
+
+$skyblue: #87CEEB;
+$limegreen: #32CD32;
+$coral: #FF7F50;
+
+$custom-colors: (
+	"skyblue": $skyblue,
+	"limegreen": $limegreen,
+	"coral": $coral,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Custom.scss
+// Option A: Include  all of Bootstrap
+
+// Include any default variable overrides here (thoug functions won't be )
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here

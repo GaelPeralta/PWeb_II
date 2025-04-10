@@ -1,0 +1,44 @@
+body {
+	//background-image: url('Fondo Windows.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;	//Para que no se mueva y sea estatica, es fixed
+}
+
+#titulo{
+	font-size: 60px; 
+	color:black;
+	text-align: center
+}
+
+#imgEncabezado{
+	width: 350px;
+	height="150"
+}
+
+#pDesarrolloWeb{
+	/*margin-left: 20px;*/
+	font-size: 20px; 
+	color:black
+}
+
+#pPOO{
+	/*margin-left: 20px;*/
+	font-size: 20px; 
+	color:black
+}
+
+h1{
+	margin-left: 20px;
+	font-size: 30px; 
+	color:white
+}
+
+hr{
+	border-color: black;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	title= "Faceboooooooool";
+}
